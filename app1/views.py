@@ -4,7 +4,7 @@ from django.template import RequestContext, loader
 from django.shortcuts import render_to_response
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
-from ipware.ip import get_ip
+
 import json
 
 
